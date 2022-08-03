@@ -41,11 +41,11 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
- &bt BT_CLR        &kp F1        &kp F2        &kp F3           &kp F4           &kp F5           &kp F6           &kp F7  &kp F8           &kp F9          &kp F10  &kp F11  &kp F12               &kp DELETE
-     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans           &trans  &kp PRINTSCREEN   &trans   &trans          &rgb_ug RGB_EFR
-     &trans      &kp LEFT      &kp DOWN     &kp RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP  &kp RIGHT_ARROW           &trans   &trans                   &rgb_ug RGB_EFF
-     &trans                      &trans        &trans           &trans           &trans           &trans           &trans  &trans           &trans           &trans   &trans                            &trans
-     &trans        &trans                      &trans                                    &rgb_ug RGB_TOG                                                     &trans   &trans   &trans                   &trans
+ &bt BT_CLR        &kp F1        &kp F2        &kp F3           &kp F4           &kp F5           &kp F6           &kp F7    &kp F8           &kp F9          &kp F10  &kp F11  &kp F12               &kp DELETE
+     &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &kp HOME           &trans  &kp PRINTSCREEN   &trans   &trans          &rgb_ug RGB_EFR
+     &trans      &kp HOME      &kp DOWN     &kp RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD   &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP  &kp RIGHT_ARROW           &trans   &trans                   &rgb_ug RGB_EFF
+     &trans                      &trans        &trans           &trans           &trans           &trans           &trans    &trans           &trans           &trans   &trans                            &trans
+     &trans        &trans                      &trans                                    &rgb_ug RGB_TOG                                                       &trans   &trans   &trans                   &trans
             >;
         };
 
